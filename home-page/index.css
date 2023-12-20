@@ -25,6 +25,11 @@
     z-index: 1;
 }
 
+.dots-btn{
+    border: none;
+    background-color: #ffffff;
+}
+
 .nav-line{
     border: 2px solid #0866ff;
     width: 140px;
@@ -90,7 +95,7 @@
     flex-direction: column;
     gap: 18px;
     margin-top: 45px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .moreText{
@@ -136,13 +141,12 @@
 
 .flex-middle{
     background-color: #f0f2f5;
-    width: 1000px;
     max-width: 1051px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    margin-left: 430px;
+    margin-right: 10px;
     margin-top: 30px;
 }
 
