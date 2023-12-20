@@ -14,6 +14,7 @@
 </head>
 
 <body>
+                                       <!-- navigation -->
     <div class="navigation">
         <div class="nav-left">
             <div><img src="../registration/photos/fb logo.png"></div>
@@ -41,8 +42,9 @@
             <div><img src="../registration/photos/profil pic.png"></div>
         </div>
     </div>
+                                    <!-- center container -->
     <div class="flex-posts">
-        <!-- marcxena -->
+                                       <!-- left container -->
         <div class="flex-left-up">
                 <div class="flex-left-item"><img src="../registration/photos/prof picture.png">
                     <p>Zura Nadareishvili</p></i>
@@ -107,7 +109,7 @@
                         <p>Your shortcuts</p>
                     </div>
                     <div>
-                        <p style="color: blue;">Edit</p>
+                        <p style="color: blue; margin-right: 30px;">Edit</p>
                     </div>
                 </div>
                 <div class="flex-left-item"><img src="../registration/photos/throne.png">
@@ -141,17 +143,25 @@
                 </div>
             </div>
         </div>
-        <!-- shuadivi -->
+                                     <!-- middle container -->
         <div class="flex-middle">
             <div>
                 <div class="flex-story">
-                    <div class="flex-story-item"><img src="../registration/photos/zura.png"></div>
-                    <div class="flex-story-item"><img src="../registration/photos/maka petriashvili.png"></div>
-                    <div class="flex-story-item"><img src="../registration/photos/tamta nadareishvili.png"></div>
-                    <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
-                    <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
                     <div class="story-arrow-left"><img src="../registration/photos/Component 2.png" style="width: 45px;"></div>
-                    <div class="story-arrow-right"><img src="../registration/photos/Component 2.png" style="width: 45px;"></div>
+                    <div class="flex-story-container">
+                        <div class="flex-story-inner">
+                            <div class="flex-story-item"><img src="../registration/photos/zura.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/maka petriashvili.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/tamta nadareishvili.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/tamta nadareishvili.png"></div>
+                            <div class="flex-story-item"><img src="../registration/photos/gvanca cxadadze.png"></div>
+                        </div>
+                    </div>
+                    <div class="story-arrow-right"><img src="../registration/photos/Component 2.png" style="width: 45px; margin-left: 20px;"></div>
                 </div>
             </div>
             <div class="flex-middle-new-post">
@@ -219,17 +229,44 @@
                     <p>People You May Know</p><img src="../registration/photos/dot.png" class="dot-img">
                 </div>
                 <div class="flex-middle-friend-photo">
-                    <div class="flex-middle-friend-photo-1"><img src="../registration/photos/badri garibashvili.png">
+                    <div class="story-arrow-left-1" onclick="prevSlide()">
+                        <img src="../registration/photos/Component 2.png" style="width: 45px;">
                     </div>
-                    <div class="flex-middle-friend-photo-1"><img src="../registration/photos/raisa.png"></div>
-                    <div class="flex-middle-friend-photo-1"><img src="../registration/photos/matsi.png"></div>
-                    <div class="flex-middle-friend-photo-1"><img src="../registration/photos/matsi.png"></div>
-                    <div class="story-arrow-left-1"><img src="../registration/photos/Component 2.png" style="width: 45px;"></div>
-                    <div class="story-arrow-right-1"><img src="../registration/photos/Component 2.png" style="width: 45px;"></div>
+                    <div class="flex-middle-friend-photo-container">
+                        <div class="flex-middle-friend-photo-inner">
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/badri garibashvili.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/raisa.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                            <div class="flex-middle-friend-photo-1">
+                                <img src="../registration/photos/matsi.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-arrow-right-1" onclick="nextSlide()">
+                        <img src="../registration/photos/Component 2.png" style="width: 45px;">
+                    </div>
                 </div>
                 <div class="flex-middle-see-all"> see all</div>
             </div>
-
+        
             <div class="flex-middle-big-post">
                 <div class="flex-middle-big-post-1">
                     <div class="acc-header">
@@ -320,7 +357,7 @@
                 </div>
             </div>
         </div>
-        <!-- marjvena -->
+                                   <!-- right container -->
         <div class="flex-right">
             <div>
                 <div class="flex-right-item"><img src="">
